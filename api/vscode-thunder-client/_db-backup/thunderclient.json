@@ -1,0 +1,126 @@
+[
+  {
+    "_id": "5860ca66-f7d8-425c-a676-9fd27585a498",
+    "colId": "6598c3a3-f878-475f-b2d3-136b80252895",
+    "containerId": "",
+    "name": "Search",
+    "url": "{{BASE_URL_SEARCH_REST}}?query=SampleDH-App&productionEndpointsOnly=true&limit=20",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2021-07-14T14:11:37.401Z",
+    "modified": "2021-07-14T14:22:55.732Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "{{TOKEN}}"
+      }
+    ],
+    "params": [
+      {
+        "name": "query",
+        "value": "SampleDH-App"
+      },
+      {
+        "name": "productionEndpointsOnly",
+        "value": "true"
+      },
+      {
+        "name": "limit",
+        "value": "20"
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "a1b5eaf1-175c-4741-848a-ff3c0697548b",
+    "colId": "6598c3a3-f878-475f-b2d3-136b80252895",
+    "containerId": "",
+    "name": "Endpoint",
+    "url": "{{BASE_URL_ENDPOINTS_REST}}/6918a1dd-ee28-40f8-bc8b-a80ed5de53a7",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2021-07-14T14:16:57.753Z",
+    "modified": "2021-07-14T14:21:19.068Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "{{TOKEN}}"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2edc7b5e-4ae4-46a3-922e-7eb0fa0634ad",
+    "colId": "1dfd6c02-f7bf-43b5-b9a2-b845431282e3",
+    "containerId": "",
+    "name": "https://midaas.mendixcloud.com/odata/SAP/v1/$metadata",
+    "url": "https://midaas.mendixcloud.com/odata/SAP/v1/$metadata",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-06-22T06:00:19.610Z",
+    "modified": "2022-06-22T06:00:19.610Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "580d307e-549a-47ce-969a-bac28d585f7e",
+    "colId": "1dfd6c02-f7bf-43b5-b9a2-b845431282e3",
+    "containerId": "",
+    "name": "https://midaas.mendixcloud.com/odata/SAP/v1/Customers",
+    "url": "https://midaas.mendixcloud.com/odata/SAP/v1/Customers",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-06-22T06:00:31.772Z",
+    "modified": "2022-06-22T06:07:31.588Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2c4b4df3-4013-4f35-b431-9a6857619f0e",
+    "colId": "1dfd6c02-f7bf-43b5-b9a2-b845431282e3",
+    "containerId": "",
+    "name": "https://midaas.mendixcloud.com/odata/SAP/v1/Customers?$filter=name+eq+'Abata'",
+    "url": "https://midaas.mendixcloud.com/odata/SAP/v1/Customers?$filter=Name+eq+'Abata'",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-06-22T06:00:38.619Z",
+    "modified": "2022-06-22T06:00:38.619Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "$filter",
+        "value": "Name+eq+'Abata'",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "9feeff24-ab1f-4b16-a270-b0c2f9b8eaa5",
+    "colId": "1dfd6c02-f7bf-43b5-b9a2-b845431282e3",
+    "containerId": "",
+    "name": "https://midaas.mendixcloud.com/odata/SAP/v1/Customers?$select=Name&$filter=Name+eq+'Abata'",
+    "url": "https://midaas.mendixcloud.com/odata/SAP/v1/Customers?$select=Name,ID&$filter=Name+eq+'Abata'",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-06-22T06:05:53.602Z",
+    "modified": "2022-06-22T06:06:41.645Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "$select",
+        "value": "Name,ID",
+        "isPath": false
+      },
+      {
+        "name": "$filter",
+        "value": "Name+eq+'Abata'",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]

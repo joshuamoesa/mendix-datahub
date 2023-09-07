@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "history",
+    "colName": "history",
+    "created": "2021-07-14T14:05:52.568Z",
+    "sortNum": 0,
+    "folders": []
+  },
+  {
+    "_id": "6598c3a3-f878-475f-b2d3-136b80252895",
+    "colName": "Mendix Data Hub",
+    "created": "2021-07-14T14:11:28.475Z",
+    "sortNum": 10000,
+    "folders": []
+  },
+  {
+    "_id": "1dfd6c02-f7bf-43b5-b9a2-b845431282e3",
+    "colName": "SAP",
+    "created": "2022-06-22T06:00:19.607Z",
+    "sortNum": 20000,
+    "folders": []
+  }
+]

@@ -1,0 +1,60 @@
+{
+    "_id": "6598c3a3-f878-475f-b2d3-136b80252895",
+    "colName": "Mendix Data Hub",
+    "created": "2021-07-14T14:11:28.475Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5860ca66-f7d8-425c-a676-9fd27585a498",
+            "colId": "6598c3a3-f878-475f-b2d3-136b80252895",
+            "containerId": "",
+            "name": "Search",
+            "url": "{{BASE_URL_SEARCH_REST}}?query=SampleDH-App&productionEndpointsOnly=true&limit=20",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2021-07-14T14:11:37.401Z",
+            "modified": "2021-07-14T14:22:55.732Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "{{TOKEN}}"
+                }
+            ],
+            "params": [
+                {
+                    "name": "query",
+                    "value": "SampleDH-App"
+                },
+                {
+                    "name": "productionEndpointsOnly",
+                    "value": "true"
+                },
+                {
+                    "name": "limit",
+                    "value": "20"
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "a1b5eaf1-175c-4741-848a-ff3c0697548b",
+            "colId": "6598c3a3-f878-475f-b2d3-136b80252895",
+            "containerId": "",
+            "name": "Endpoint",
+            "url": "{{BASE_URL_ENDPOINTS_REST}}/6918a1dd-ee28-40f8-bc8b-a80ed5de53a7",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2021-07-14T14:16:57.753Z",
+            "modified": "2021-07-14T14:21:19.068Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "{{TOKEN}}"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

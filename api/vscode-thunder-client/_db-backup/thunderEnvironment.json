@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "64d6bd2d-ba2c-4170-8bdf-3ae670b95c3f",
+    "name": "MxDH_Production",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2021-07-14T14:06:03.833Z",
+    "modified": "2021-07-14T14:16:39.670Z",
+    "data": [
+      {
+        "name": "TOKEN",
+        "value": "MxToken 7XgTdTFUBtsU5PrhKRS9qqwDEdyDazpFV8kKzjBxFdizByX9fCkrPqBHUqjfdAH1r3DEryjQWASZHEQjaUYfFepc3kK3y5rhmW1Y"
+      },
+      {
+        "name": "BASE_URL_SEARCH_REST",
+        "value": "{{BASE_URL}}/rest/search/v3/data"
+      },
+      {
+        "name": "BASE_URL_ENDPOINTS_REST",
+        "value": "{{BASE_URL}}/rest/search/v3/endpoints"
+      },
+      {
+        "name": "BASE_URL",
+        "value": "https://hub.mendix.com"
+      }
+    ]
+  }
+]
